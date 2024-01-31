@@ -36,8 +36,8 @@ actor {
     let ic : Types.IC = actor ("aaaaa-aa");
 
     // Configuración de la solicitud HTTP a Adafruit IO
-    let apiKey = "aio_YbtF71HM9fG9lBguLr3jSDMTQOoR";
-    let feedPath = "ciglesiasvera/feeds/temperatura";
+    let apiKey = "API Key";
+    let feedPath = "feed path";
     let apiUrl = "https://io.adafruit.com/api/v2/" # feedPath;
     let url = apiUrl # "?key=" # apiKey;
 
