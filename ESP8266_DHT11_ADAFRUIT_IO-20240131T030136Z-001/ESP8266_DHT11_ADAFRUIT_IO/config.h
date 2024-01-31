@@ -1,12 +1,12 @@
 /************************ Adafruit IO Config *******************************/
 
-#define IO_USERNAME "ciglesiasvera"
-#define IO_KEY "aio_YbtF71HM9fG9lBguLr3jSDMTQOoR"
+#define IO_USERNAME "username"
+#define IO_KEY "key"
 
 /******************************* WIFI **************************************/
 
-#define WIFI_SSID "TcoExP"
-#define WIFI_PASS "S_*?316zhFLxMdp73"
+#define WIFI_SSID "SSID"
+#define WIFI_PASS "Password"
 
 #include "AdafruitIO_WiFi.h"
 
