@@ -38,7 +38,7 @@ actor {
     // Configuración de la solicitud HTTP a Adafruit IO
     let apiKey = "API Key";
     let feedPath = "feed path";
-    let apiUrl = "https://io.adafruit.com/api/v2/" # feedPath;
+    let apiUrl = "API URL" # feedPath;
     let url = apiUrl # "?key=" # apiKey;
 
     // Encabezados de la solicitud HTTP
