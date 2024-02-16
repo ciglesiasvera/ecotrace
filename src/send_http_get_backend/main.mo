@@ -38,8 +38,8 @@ actor {
     // Setup arguments for HTTP GET request
 
     // API key for Weatherbit
-    let apiKey = "Your AP Key";
-    let apiUrl = "https://api.weatherbit.io/v2.0/current";
+    let apiKey = "Your API Key";
+    let apiUrl = "API URL";
     let url = apiUrl # "?city=" # city # "&key=" # apiKey;
 
     // Headers for the system http_request call
